@@ -49,6 +49,7 @@ footer {
 
 footer .social {
     float: right;
+    cursor: default;
 }
 
 footer .social li {
