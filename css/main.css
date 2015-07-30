@@ -110,6 +110,10 @@ footer .social li.linkedin:hover {
     background: #069;
 }
 
+footer .social li.github:hover {
+    background: #000000;
+}
+
 hr {
     border-top: 1px solid #CACACA;
 }
