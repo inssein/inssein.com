@@ -3,6 +3,9 @@ import Typography from "typography";
 import Wordpress2016 from "typography-theme-wordpress-2016";
 
 Wordpress2016.overrideThemeStyles = () => ({
+  h3: {
+    fontFamily: "Montserrat, sans-serif",
+  },
   a: {
     color: "var(--text-link)",
   },
