@@ -31,7 +31,7 @@ interface Props {
           linkedIn: string;
           twitter: string;
           github: string;
-        }
+        };
       };
     };
   };
@@ -60,8 +60,10 @@ const BlogIndex = ({ data }: Props) => {
                   {title}
                 </Link>
               </h3>
-              <small>{node.frontmatter.date}</small>
-              {` • ${formatReadingTime(node.timeToRead)}`}
+              <small>
+                {node.frontmatter.date}
+                {` • ${formatReadingTime(node.timeToRead)}`}
+              </small>
             </header>
             <section>
               <p
