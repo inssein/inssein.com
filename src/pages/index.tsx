@@ -26,6 +26,12 @@ interface Props {
     site: {
       siteMetadata: {
         title: string;
+        social: {
+          mail: string;
+          linkedIn: string;
+          twitter: string;
+          github: string;
+        }
       };
     };
   };

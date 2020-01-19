@@ -1,11 +1,11 @@
 {
-  "name": "gatsby-starter-blog",
+  "name": "inssein.com",
   "private": true,
-  "description": "A starter for a blog powered by Gatsby and Markdown",
-  "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "description": "A personal blog by Hussein Jafferjee",
+  "version": "1.0.0",
+  "author": "Hussein Jafferjee <hussein@jafferjee.ca>",
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/inssein/inssein.com/issues"
   },
   "dependencies": {
     "@types/node": "^13.1.8",
@@ -45,15 +45,12 @@
     "prettier": "^1.19.1",
     "typescript": "^3.7.5"
   },
-  "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
-  "keywords": [
-    "gatsby"
-  ],
+  "homepage": "https://inssein.com",
   "license": "MIT",
   "main": "n/a",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
+    "url": "git+https://github.com/inssein/inssein.com.git"
   },
   "scripts": {
     "build": "gatsby build",

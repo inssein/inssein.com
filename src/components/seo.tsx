@@ -10,9 +10,13 @@ interface Props {
 }
 
 function SEO({ description, lang = "en", meta = [], title }: Props) {
-  const { site } = useStaticQuery(
+  const { site } = useStaticQuery<{
+    site: {
+      siteMetadata: { title: string; description: string; author: string };
+    };
+  }>(
     graphql`
-      query {
+      query SeoQuery {
         site {
           siteMetadata {
             title
@@ -40,40 +44,44 @@ function SEO({ description, lang = "en", meta = [], title }: Props) {
             title,
           }
         : {
-            title: `${site.siteMetadata.title} — A blog by Hussein Jafferjee`,
+            title: `${site.siteMetadata.title} — A blog by ${site.siteMetadata.author}`,
           })}
       meta={[
         {
-          name: `description`,
+          name: "description",
           content: metaDescription,
         },
         {
-          property: `og:title`,
+          property: "og:title",
           content: title,
         },
         {
-          property: `og:description`,
+          property: "og:description",
           content: metaDescription,
         },
         {
-          property: `og:type`,
-          content: `website`,
+          property: "og:type",
+          content: "website",
         },
         {
-          name: `twitter:card`,
-          content: `summary`,
+          name: "twitter:card",
+          content: "summary",
         },
         {
-          name: `twitter:creator`,
+          name: "twitter:creator",
           content: site.siteMetadata.author,
         },
         {
-          name: `twitter:title`,
+          name: "twitter:title",
           content: title,
         },
         {
-          name: `twitter:description`,
+          name: "twitter:description",
           content: metaDescription,
+        },
+        {
+          name: "theme-color",
+          content: "#002b36",
         },
         ...meta,
       ]}
