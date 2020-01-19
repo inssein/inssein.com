@@ -32,11 +32,11 @@ function SEO({ description, lang = "en", meta = [], title }: Props) {
 
   return (
     <Helmet
-      bodyAttributes={{
-        class: "solarized-dark",
-      }}
       htmlAttributes={{
         lang,
+      }}
+      bodyAttributes={{
+        class: "solarized-dark",
       }}
       {...(title
         ? {

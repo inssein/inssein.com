@@ -1,4 +1,4 @@
-# [🤯 Inssein](https://inssein.com/)
+# [🤯 inssein.com](https://inssein.com/)
 
 My personal blog.
 

@@ -75,7 +75,7 @@ const Layout = ({ title, children }: Props) => {
                 textDecoration: "none",
                 color: "var(--header)",
               }}
-              to={`/`}
+              to="/"
             >
               🤯 {title}
             </Link>
@@ -119,7 +119,7 @@ const Layout = ({ title, children }: Props) => {
 
             <a
               className="github"
-              href={`https://github.com/{social.github}`}
+              href={`https://github.com/${social.github}`}
               title="Github"
             >
               <svg viewBox="0 0 496 512">
