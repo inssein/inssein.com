@@ -30,7 +30,7 @@ const Layout = ({ title, children }: Props) => {
           style={{
             display: "flex",
             justifyContent: "space-between",
-            alignItems: "center"
+            alignItems: "center",
           }}
         >
           <h1
