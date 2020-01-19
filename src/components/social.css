@@ -1,0 +1,49 @@
+.social {
+  display: flex;
+}
+
+.social a {
+  padding: 0;
+  height: 1.75rem;
+  width: 1.75rem;
+  border-radius: 100% 100% 100% 100%;
+  margin-right: 5px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.8);
+  transition: background 0.3s ease-in-out;
+  background-color: #073642;
+  display: flex;
+  justify-content: center;
+}
+
+.social a svg{
+  color: #b58900;
+  transition: color 0.3s ease-in-out;
+}
+
+.social a svg {
+  width: 1rem;
+}
+
+.social a:hover svg {
+  color: #fff;
+}
+
+.social a.mail:hover {
+  background: #c71610;
+}
+
+.social a.github:hover {
+  background: #000000;
+}
+
+.social a.twitter:hover {
+  background: #2c77ba;
+}
+
+.social a.linkedin:hover {
+  background: #069;
+}
+
+.social a:last-child {
+  margin-right: 0;
+}
