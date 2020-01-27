@@ -20,7 +20,8 @@ interface Props {
 const BlogPostTemplate = ({ data, pageContext }: Props) => {
   const post = data.markdownRemark;
   const siteTitle = data.site.siteMetadata.title;
-  const { previous, next } = pageContext;
+  const { previous, next, slug } = pageContext;
+  const editUrl = `https://github.com/inssein/inssein.com/edit/master/content/blog${slug}index.md`;
 
   return (
     <Layout title={siteTitle}>
@@ -51,7 +52,24 @@ const BlogPostTemplate = ({ data, pageContext }: Props) => {
             {` • ${formatReadingTime(post.timeToRead)}`}
           </p>
         </header>
+
         <section dangerouslySetInnerHTML={{ __html: post.html }} />
+
+        <hr />
+
+        <footer>
+          <p>
+            I hope you found this content useful. If you came across any errors
+            please{" "}
+            <a href={editUrl} target="_blank" rel="noopener noreferrer">
+              edit the file on GitHub
+            </a>
+            . I am also always looking for suggestions on how to improve this
+            content, or what to write next, feel free to reach out to me via any
+            of the methods in the social bar in the top right of this page.
+          </p>
+        </footer>
+
         <hr
           style={{
             marginBottom: rhythm(1),
