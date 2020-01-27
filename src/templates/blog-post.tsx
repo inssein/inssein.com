@@ -65,8 +65,8 @@ const BlogPostTemplate = ({ data, pageContext }: Props) => {
               edit the file on GitHub
             </a>
             . I am also always looking for suggestions on how to improve this
-            content, or what to write next, feel free to reach out to me via any
-            of the methods in the social bar in the top right of this page.
+            content or what to write next. Feel free to reach out to me via any
+            of the social icons in the top right corner of this page.
           </p>
         </footer>
 

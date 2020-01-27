@@ -59,4 +59,4 @@ If you are not following The Odin Project, or just want to see a quick example o
 
 Now you have a fully functioning development environment setup using Ubuntu Server 18.04, that is accessible from any computer in the world via just a browser. You can use it to complete The Odin Project, or you can follow any tutorial online that expects you to have linux installed. Instead of typing in the commands in a terminal installed on your machine, you can type it in the browser.
 
-If you have access to a computer with admin privileges, I explore how we can use [Visual Studio Code}(https://code.visualstudio.com/) to connect to this same environment in my [next blog post](https://inssein.com/aws-cloud9-vs-code-remote/).
+If you have access to a computer with admin privileges, I explore how we can use [Visual Studio Code](https://code.visualstudio.com/) to connect to this same environment in my [next blog post](https://inssein.com/aws-cloud9-vs-code-remote/).
