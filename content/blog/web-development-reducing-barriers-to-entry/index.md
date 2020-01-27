@@ -22,8 +22,8 @@ Fortunately for me, this was during the glory days of [GeoCities](https://en.wik
 Once I got a bit better, I quickly found new and better tools.
 
 - Companies offering free web hosting with direct FTP access, databases and languages pre-installed.
-- I got "access" (cough) to tools like Microsoft FrontPage and Macromedia DreamWeaver
-- The explosion of PHP because it was free. I almost got into ColdFusion, but good thing it wasn't free 😉
+- I got "access" (cough) to tools like Microsoft FrontPage and Macromedia DreamWeaver.
+- The explosion of PHP because it was free. I almost got into ColdFusion, but good thing it wasn't free 😉.
 - My dad worked at a place with access to fancy printers, and printed me a few books. One of them was about setting up an entire e-commerce system with PHP and MySQL.
 
 ## Giving Back
@@ -44,13 +44,13 @@ From their website, here is a mini description of The Odin Project:
 
 The introduction of The Odin Project starts off with pre-requisites, specifically around your development environment, and they give you 3 choices:
 
-1. Setup a virtual machine on your current computer
-2. Dual boot windows / linux
-3. Use Windows 10 WSL (Side note: WSL 2 is awesome!)
+1. Setup a virtual machine on your current computer.
+2. Dual boot windows / linux.
+3. Use Windows 10 WSL (Side note: WSL 2 is awesome!).
 
 For a lot of folks who just wanted to try out web development, those are some daunting steps to go through. They wanted to learn web development, but they are about to spend a few days figuring out whether they can even get past the pre-requisites. There could be many arguments made that this is necessary to go through, as it gets harder from here, but I personally disagree. As I mentioned earlier, what got me hooked into web development was changing a few things in an html file, reloading, and seeing things appear on a screen. How do we get folks into that, with the lowest barrier to entry?
 
-## Lowering the barrier to entry
+## Lowering the Barrier to Entry
 
 The lowest barrier to entry in my mind is access to a web browser. This allows someone to participate from a library, or if they have access to a computer without admin privileges.
 

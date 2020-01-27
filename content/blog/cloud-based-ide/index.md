@@ -17,11 +17,11 @@ The catch here is that the basic setup will be free for 12 months, and require a
 ## Lets Get Started
 
 1. Sign up for an [AWS Account](https://portal.aws.amazon.com/billing/signup#/start). This includes adding a credit card, and verifying your account.
-2. Create a new [AWS Cloud9 Environment](https://us-west-2.console.aws.amazon.com/cloud9/home/create)
+2. Create a new [AWS Cloud9 Environment](https://us-west-2.console.aws.amazon.com/cloud9/home/create).
    - Pro-tip: Ensure a region is selected in the top right before creating an environment. If you are on the west coast of North America, I suggest `us-west-2` (Oregon).
-   - The first page, you are just naming the environment
+   - The first page, you are just naming the environment.
    - In The second page ("Configure Settings"), ensure the Instancy Type is "t2.micro", and for the platform, I suggest "Ubuntu Server 18.04 LTS" as its more friendly for beginners, especially when searching for help.
-   - Review the next page and click on "Create Environment"
+   - Review the next page and click on "Create Environment".
 3. Once the environment is setup, you now have a fully functioning development environment with a plethora of languages available.
 
 ## Continuing The Odin Project
