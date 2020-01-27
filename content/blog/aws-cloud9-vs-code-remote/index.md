@@ -62,7 +62,7 @@ Now the EC2 instance is ready to be connected to via Visual Studio Code.
 
 ## Hello World
 
-Now that you are connect to the Cloud 9 environment via Visual Studio Code, I am going to show you two small examples.
+Now that you are connected to the Cloud 9 environment via Visual Studio Code, I am going to show you two small examples.
 
 First, let's edit the `index.html` file we created in the first blog post.
 
